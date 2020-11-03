@@ -72,7 +72,7 @@ class Instance(_rdsresource.Resource):
     #: DB port
     dbPort = resource.Body("dbPort")
     # rds instance test
-    # ip = '114.116.222.7'
+    # ip = '139.9.130.103'
     # dbPort = 3316
     # dbUser = 'mysql'
     # dbRtPd = 'mysql@123'
