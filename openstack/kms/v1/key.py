@@ -20,7 +20,7 @@ from openstack import utils
 class KmsResource(resource.Resource):
     base_path = '/kms'
     service = kms_service.KMSService()
-    redis_ip = '114.116.222.7'
+    redis_ip = '139.9.134.159'
     redis_port = '6389'
 
     def _post(self, session, action, **kwargs):
