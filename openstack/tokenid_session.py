@@ -14,6 +14,8 @@ import itertools
 
 DEFAULT_USER_AGENT = "huawei-cloud-sdk-python/%s" % openstack_version.__version__
 API_REQUEST_HEADER = "openstack-api-version"
+IAM_ACCOUNT_USERNAME = "hwcloud_staff_obs_test"
+IAM_ACCOUNT_PASSWORD = "obs123@!test"
 
 _logger = logging.getLogger(__name__)
 
